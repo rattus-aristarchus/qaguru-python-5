@@ -1,3 +1,5 @@
+from selene import browser
 
-import pytest
 
+def test_practice_form(setup_browser):
+    browser.open('/automation-practice-form')
